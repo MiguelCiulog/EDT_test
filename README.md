@@ -13,7 +13,16 @@ pip install -r requirements.txt
 python ./utils/import_csv.py ./utils/restaurantes.csv
 ```
 
-2. Run the project
+3. Run the project
 ```
 uvicorn main:app --app-dir ./src/edt/
 ```
+
+4. Format the project (must have black and isort installed)
+```
+pip install isort black
+isort --profile black . && black .
+```
+
+
+

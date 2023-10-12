@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker
 
 import sys
 
-sys.path.append("src/edt")
+sys.path.append("src")
 from core.config import config
 from models.restaurants import Restaurants
 
