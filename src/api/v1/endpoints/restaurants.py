@@ -10,7 +10,7 @@ router = APIRouter(prefix="/restaurants", tags=["restaurant"])
 
 
 @router.get(
-    "/statistics/",
+    "/statistics",
     response_model=RestaurantsOutput,
     status_code=status.HTTP_200_OK,
     summary="Returns statistics about all the restaurants near the area in the radius",
