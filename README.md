@@ -13,3 +13,7 @@ pip install -r requirements.txt
 python ./utils/import_csv.py ./utils/restaurantes.csv
 ```
 
+2. Run the project
+```
+uvicorn main:app --app-dir ./src/edt/
+```

@@ -1,9 +1,9 @@
 services:
   # A Docker web service
   - type: web
-    name: fastapi-example
+    name: EDT_test_fastapi
     runtime: python
     plan: free
     autoDeploy: false
     buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $SERVER_PORT --app-dir ./src/edt/
