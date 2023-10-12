@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from api.v1.api import api_router as v1_router
+from src.api.v1.api import api_router as v1_router
 
 app = FastAPI()
 
