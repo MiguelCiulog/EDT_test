@@ -24,5 +24,5 @@ pip install isort black
 isort --profile black . && black .
 ```
 
-
+5. The collection can be imported using the restaurants.postman_collection.json. How to import [here](https://apidog.com/blog/how-to-import-export-postman-collection-data/#how-to-import-postman-collections)
 
