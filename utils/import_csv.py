@@ -1,10 +1,9 @@
 import argparse
 import csv
+import sys
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-
-import sys
 
 sys.path.append("src")
 from core.config import config
